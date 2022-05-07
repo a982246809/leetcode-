@@ -8,11 +8,11 @@ public class Solution {
     }
 
     public int minCostClimbingStairs(int[] cost) {
-
+//       状态转移方程 f(i) = min(f(i-1),f(i-2)) + cost[i]
         return 0;
     }
 
-    private void dfs(int[] cost, int i , int step,int sum) {
+    private int dfs(int[] cost, int i ) {
 
     }
 }
